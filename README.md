@@ -36,8 +36,8 @@ Currently expanding my skills in Full-Stack Engineering via Codecademy. I will s
 -->
 
 ## 📫 Let's Connect
-- Portfolio: [[your website]](https://andy-dev-eng.github.io/andy-dev-eng/)
-- LinkedIn: [[your LinkedIn]](https://www.linkedin.com/in/andy-reeves-80a725354/)
+- Portfolio: [[andy-dev-eng.github.io]](https://andy-dev-eng.github.io/andy-dev-eng/)
+- LinkedIn: [[andy-reeves-80a725354]](https://www.linkedin.com/in/andy-reeves-80a725354/)
 - Email: andrewreeves73@icloud.com
 
 ## 🚀 Featured Projects
@@ -64,4 +64,4 @@ Currently expanding my skills in Full-Stack Engineering via Codecademy. I will s
 -->
 ---
 
-⭐️ From [your GitHub username](https://github.com/andy-dev-eng)
+⭐️ From [andy-dev-eng](https://github.com/andy-dev-eng)
