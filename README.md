@@ -6,7 +6,7 @@ Comcast Operations Video Distribution Engineer looking to  develop skills  as a 
 ## 🛠️ Tech Stack
 - **Frontend**: HTML5, CSS3, <!-- JavaScript (ES6+), React.js, Vue.js -->more to come
 - **Backend**: <!-- Node.js, Express, Python, Django -->more to come
-- **Database**: <-- MongoDB, PostgreSQL, MySQL -->more to come
+- **Database**: <!-- MongoDB, PostgreSQL, MySQL -->more to come
 - **Tools**: Git, Microsoft VS Code, <!-- Docker, Webpack, npm -->more to come
 - **Design**: <!-- Figma, Adobe XD --> more to come
 
