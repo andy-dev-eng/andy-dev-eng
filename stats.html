@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Trinity Prep Lions Baseball - Statistics</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Official team and player statistics for Trinity Prep School Varsity Lions Baseball team" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="stylesheet" type="text/css" href="stats.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header class="header">
+      <a href="index.html">
+        <img src="https://trinityprep.net/wp-content/uploads/2020/04/logotps1.png" width="480" height="102" alt="Trinity Prep" id="logo">
+      </a>
+      <nav class="navbar">
+        <p><a href="index.html">Home</a></p>
+        <p><a href="index.html#schedule">Schedule</a></p>
+        <p><a href="index.html#team-container">Roster</a></p>
+        <p><a href="stats.html" class="active-nav">Statistics</a></p>
+        <p><a href="index.html#gallery">Gallery</a></p>
+        <p><a href="index.html#contact">Contact</a></p>
+      </nav>
+    </header>
+    
+    <!-- Floating Social Media Sidebar -->
+    <div class="social-sidebar">
+      <a href="https://www.facebook.com/trinitypreplions" class="social-icon" target="_blank" aria-label="Facebook">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+      <a href="https://www.maxpreps.com/tn/nashville/trinity-prep-school-lions/" class="social-icon maxpreps-icon" target="_blank" aria-label="MaxPreps">
+        <span>MP</span>
+      </a>
+    </div>
+    
+    <main class="main">
+      <section class="page-banner">
+        <div class="banner-content">
+          <h1>2024-25 Team Statistics</h1>
+          <p>Trinity Prep Lions Varsity Baseball</p>
+        </div>
+      </section>
+      
+      <section id="stats-overview">
+        <h2>Season Overview</h2>
+        <div class="stats-cards">
+          <div class="stat-card">
+            <div class="stat-value">5-2</div>
+            <div class="stat-label">Season Record</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">.302</div>
+            <div class="stat-label">Team Batting Avg</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">3.21</div>
+            <div class="stat-label">Team ERA</div>
+          </div>
+          <div class="stat-card">
+            <div class="stat-value">.968</div>
+            <div class="stat-label">Fielding %</div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="team-stats">
+        <h2>Team Statistics</h2>
+        
+        <div class="tabs">
+          <button class="tab-button active" data-tab="batting">Batting</button>
+          <button class="tab-button" data-tab="pitching">Pitching</button>
+          <button class="tab-button" data-tab="fielding">Fielding</button>
+          <button class="tab-button" data-tab="game-results">Game Results</button>
+        </div>
+        
+        <div class="tab-content active" id="batting">
+          <div class="table-container">
+            <table class="stats-table">
+              <thead>
+                <tr>
+                  <th>Player</th>
+                  <th>G</th>
+                  <th>AB</th>
+                  <th>R</th>
+                  <th>H</th>
+                  <th>2B</th>
+                  <th>3B</th>
+                  <th>HR</th>
+                  <th>RBI</th>
+                  <th>BB</th>
+                  <th>SO</th>
+                  <th>SB</th>
+                  <th>AVG</th>
+                  <th>OBP</th>
+                  <th>SLG</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Christian Spence</td>
+                  <td>7</td>
+                  <td>23</td>
+                  <td>7</td>
+                  <td>9</td>
+                  <td>3</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>6</td>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>2</td>
+                  <td>.391</td>
+                  <td>.481</td>
+                  <td>.652</td>
+                </tr>
+                <tr>
+                  <td>Landon Shoemaker</td>
+                  <td>7</td>
+                  <td>21</td>
+                  <td>6</td>
+                  <td>8</td>
+                  <td>2</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>4</td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>3</td>
+                  <td>.381</td>
+                  <td>.458</td>
+                  <td>.571</td>
+                </tr>
+                <tr>
+                  <td>Hunter Brooks</td>
+                  <td>7</td>
+                  <td>24</td>
+                  <td>8</td>
+                  <td>9</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>2</td>
+                  <td>7</td>
+                  <td>5</td>
+                  <td>6</td>
+                  <td>5</td>
+                  <td>.375</td>
+                  <td>.483</td>
+                  <td>.667</td>
+                </tr>
+                <tr>
+                  <td>Parker Lynn</td>
+                  <td>7</td>
+                  <td>22</td>
+                  <td>5</td>
+                  <td>7</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>5</td>
+                  <td>2</td>
+                  <td>7</td>
+                  <td>1</td>
+                  <td>.318</td>
+                  <td>.375</td>
+                  <td>.409</td>
+                </tr>
+                <tr>
+                  <td>Sam Shoemaker</td>
+                  <td>7</td>
+                  <td>20</td>
+                  <td>4</td>
+                  <td>6</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>2</td>
+                  <td>.300</td>
+                  <td>.417</td>
+                  <td>.350</td>
+                </tr>
+                <tr>
+                  <td>Preston Lynn</td>
+                  <td>7</td>
+                  <td>18</td>
+                  <td>3</td>
+                  <td>5</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>4</td>
+                  <td>.278</td>
+                  <td>.381</td>
+                  <td>.389</td>
+                </tr>
+                <tr>
+                  <td>Jensen Mooney</td>
+                  <td>7</td>
+                  <td>19</td>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>2</td>
+                  <td>2</td>
+                  <td>6</td>
+                  <td>2</td>
+                  <td>.263</td>
+                  <td>.333</td>
+                  <td>.316</td>
+                </tr>
+                <tr>
+                  <td>Levi Barrelle</td>
+                  <td>6</td>
+                  <td>17</td>
+                  <td>2</td>
+                  <td>4</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>3</td>
+                  <td>1</td>
+                  <td>5</td>
+                  <td>0</td>
+                  <td>.235</td>
+                  <td>.278</td>
+                  <td>.294</td>
+                </tr>
+                <tr>
+                  <td>JT Davis</td>
+                  <td>5</td>
+                  <td>13</td>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>4</td>
+                  <td>1</td>
+                  <td>.231</td>
+                  <td>.333</td>
+                  <td>.231</td>
+                </tr>
+                <tr>
+                  <td>Eli Davis</td>
+                  <td>4</td>
+                  <td>10</td>
+                  <td>0</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>3</td>
+                  <td>0</td>
+                  <td>.200</td>
+                  <td>.273</td>
+                  <td>.200</td>
+                </tr>
+                <tr>
+                  <td>Koltin Day</td>
+                  <td>4</td>
+                  <td>9</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>1</td>
+                  <td>.111</td>
+                  <td>.273</td>
+                  <td>.111</td>
+                </tr>
+                <tr>
+                  <td>Jerrin Mitchell</td>
+                  <td>3</td>
+                  <td>6</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1</td>
+                  <td>3</td>
+                  <td>0</td>
+                  <td>.000</td>
+                  <td>.143</td>
+                  <td>.000</td>
+                </tr>
+                <tr class="team-total">
+                  <td><strong>TEAM TOTALS</strong></td>
+                  <td>7</td>
+                  <td>182</td>
+                  <td>42</td>
+                  <td>55</td>
+                  <td>11</td>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>34</td>
+                  <td>30</td>
+                  <td>55</td>
+                  <td>21</td>
+                  <td>.302</td>
+                  <td>.391</td>
+                  <td>.434</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="stat-legend">
+            <p>G = Games, AB = At Bats, R = Runs, H = Hits, 2B = Doubles, 3B = Triples, HR = Home Runs, RBI = Runs Batted In, BB = Walks, SO = Strikeouts, SB = Stolen Bases, AVG = Batting Average, OBP = On-Base Percentage, SLG = Slugging Percentage</p>
+          </div>
+        </div>
+        
+        <div class="tab-content" id="pitching">
+          <div class="table-container">
+            <table class="stats-table">
+              <thead>
+                <tr>
+                  <th>Player</th>
+                  <th>G</th>
+                  <th>GS</th>
+                  <th>W</th>
+                  <th>L</th>
+                  <th>SV</th>
+                  <th>IP</th>
+                  <th>H</th>
+                  <th>R</th>
+                  <th>ER</th>
+                  <th>BB</th>
+                  <th>SO</th>
+                  <th>ERA</th>
+                  <th>WHIP</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Sam Shoemaker</td>
+                  <td>3</td>
+                  <td>3</td>
+                  <td>2</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>18.0</td>
+                  <td>12</td>
+                  <td>7</td>
+                  <td>5</td>
+                  <td>6</td>
+                  <td>21</td>
+                  <td>2.50</td>
+                  <td>1.00</td>
+                </tr>
+                <tr>
+                  <td>Jensen Mooney</td>
+                  <td>3</td>
+                  <td>2</td>
+                  <td>2</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>14.1</td>
+                  <td>11</td>
+                  <td>6</td>
+                  <td>4</td>
+                  <td>5</td>
+                  <td>16</td>
+                  <td>2.51</td>
+                  <td>1.12</td>
+                </tr>
+                <tr>
+                  <td>Parker Lynn</td>
+                  <td>4</td>
+                  <td>2</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>12.2</td>
+                  <td>14</td>
+                  <td>9</td>
+                  <td>8</td>
+                  <td>7</td>
+                  <td>13</td>
+                  <td>5.68</td>
+                  <td>1.66</td>
+                </tr>
+                <tr class="team-total">
+                  <td><strong>TEAM TOTALS</strong></td>
+                  <td>7</td>
+                  <td>7</td>
+                  <td>5</td>
+                  <td>2</td>
+                  <td>1</td>
+                  <td>45.0</td>
+                  <td>37</td>
+                  <td>22</td>
+                  <td>16</td>
+                  <td>18</td>
+                  <td>50</td>
+                  <td>3.21</td>
+                  <td>1.22</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="stat-legend">
+            <p>G = Games, GS = Games Started, W = Wins, L = Losses, SV = Saves, IP = Innings Pitched, H = Hits Allowed, R = Runs Allowed, ER = Earned Runs, BB = Walks, SO = Strikeouts, ERA = Earned Run Average, WHIP = Walks + Hits per Inning Pitched</p>
+          </div>
+        </div>
+        
+        <div class="tab-content" id="fielding">
+          <div class="table-container">
+            <table class="stats-table">
+              <thead>
+                <tr>
+                  <th>Player</th>
+                  <th>POS</th>
+                  <th>G</th>
+                  <th>PO</th>
+                  <th>A</th>
+                  <th>E</th>
+                  <th>DP</th>
+                  <th>FLD%</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Christian Spence</td>
+                  <td>1B</td>
+                  <td>7</td>
+                  <td>58</td>
+                  <td>3</td>
+                  <td>1</td>
+                  <td>4</td>
+                  <td>.984</td>
+                </tr>
+                <tr>
+                  <td>Jensen Mooney</td>
+                  <td>SS/2B</td>
+                  <td>7</td>
+                  <td>12</td>
+                  <td>19</td>
+                  <td>2</td>
+                  <td>3</td>
+                  <td>.939</td>
+                </tr>
+                <tr>
+                  <td>Sam Shoemaker</td>
+                  <td>SS/P</td>
+                  <td>7</td>
+                  <td>5</td>
+                  <td>15</td>
+                  <td>1</td>
+                  <td>2</td>
+                  <td>.952</td>
+                </tr>
+                <tr>
+                  <td>Parker Lynn</td>
+                  <td>3B/P</td>
+                  <td>7</td>
+                  <td>5</td>
+                  <td>12</td>
+                  <td>2</td>
+                  <td>1</td>
+                  <td>.895</td>
+                </tr>
+                <tr>
+                  <td>Levi Barrelle</td>
+                  <td>C/3B</td>
+                  <td>6</td>
+                  <td>38</td>
+                  <td>5</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>.977</td>
+                </tr>
+                <tr>
+                  <td>Hunter Brooks</td>
+                  <td>CF</td>
+                  <td>7</td>
+                  <td>16</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1.000</td>
+                </tr>
+                <tr>
+                  <td>Preston Lynn</td>
+                  <td>RF/CF</td>
+                  <td>7</td>
+                  <td>14</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>.938</td>
+                </tr>
+                <tr>
+                  <td>Landon Shoemaker</td>
+                  <td>LF/C</td>
+                  <td>7</td>
+                  <td>25</td>
+                  <td>3</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>.966</td>
+                </tr>
+                <tr>
+                  <td>JT Davis</td>
+                  <td>LF/2B</td>
+                  <td>5</td>
+                  <td>7</td>
+                  <td>9</td>
+                  <td>2</td>
+                  <td>2</td>
+                  <td>.889</td>
+                </tr>
+                <tr>
+                  <td>Eli Davis</td>
+                  <td>1B</td>
+                  <td>4</td>
+                  <td>18</td>
+                  <td>1</td>
+                  <td>0</td>
+                  <td>2</td>
+                  <td>1.000</td>
+                </tr>
+                <tr>
+                  <td>Koltin Day</td>
+                  <td>2B/RF</td>
+                  <td>4</td>
+                  <td>6</td>
+                  <td>8</td>
+                  <td>1</td>
+                  <td>1</td>
+                  <td>.933</td>
+                </tr>
+                <tr>
+                  <td>Jerrin Mitchell</td>
+                  <td>RF</td>
+                  <td>3</td>
+                  <td>4</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>0</td>
+                  <td>1.000</td>
+                </tr>
+                <tr class="team-total">
+                  <td><strong>TEAM TOTALS</strong></td>
+                  <td></td>
+                  <td>7</td>
+                  <td>208</td>
+                  <td>77</td>
+                  <td>12</td>
+                  <td>7</td>
+                  <td>.960</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div class="stat-legend">
+            <p>POS = Position, G = Games, PO = Putouts, A = Assists, E = Errors, DP = Double Plays, FLD% = Fielding Percentage</p>
+          </div>
+        </div>
+        
+        <div class="tab-content" id="game-results">
+          <div class="table-container">
+            <table class="stats-table results-table">
+              <thead>
+                <tr>
+                  <th>Date</th>
+                  <th>Opponent</th>
+                  <th>Result</th>
+                  <th>Score</th>
+                  <th>Winning Pitcher</th>
+                  <th>Offensive Leaders</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="win">
+                  <td>Feb 15, 2025</td>
+                  <td>Grace Christian Academy</td>
+                  <td><strong>W</strong></td>
+                  <td>7-3</td>
+                  <td>Sam Shoemaker (1-0)</td>
+                  <td>Christian Spence (2-4, HR, 3 RBI)</td>
+                </tr>
+                <tr class="loss">
+                  <td>Feb 22, 2025</td>
+                  <td>Franklin Road Academy</td>
+                  <td><strong>L</strong></td>
+                  <td>2-5</td>
+                  <td>Sam Shoemaker (1-1)</td>
+                  <td>Hunter Brooks (2-3, 2B, RBI)</td>
+                </tr>
+                <tr class="win">
+                  <td>Mar 1, 2025</td>
+                  <td>Davidson Academy</td>
+                  <td><strong>W</strong></td>
+                  <td>6-2</td>
+                  <td>Jensen Mooney (1-0)</td>
+                  <td>Landon Shoemaker (3-4, 3B, 2 RBI)</td>
+                </tr>
+                <tr class="loss">
+                  <td>Mar 8, 2025</td>
+                  <td>Christ Presbyterian Academy</td>
+                  <td><strong>L</strong></td>
+                  <td>3-6</td>
+                  <td>Parker Lynn (0-1)</td>
+                  <td>Christian Spence (2-3, 2B, RBI)</td>
+                </tr>
+                <tr class="win">
+                  <td>Mar 15, 2025</td>
+                  <td>Friendship Christian School</td>
+                  <td><strong>W</strong></td>
+                  <td>8-2</td>
+                  <td>Sam Shoemaker (2-1)</td>
+                  <td>Hunter Brooks (3-4, HR, 3 RBI)</td>
+                </tr>
+                <tr class="win">
+                  <td>Mar 22, 2025</td>
+                  <td>Donelson Christian Academy</td>
+                  <td><strong>W</strong></td>
+                  <td>5-2</td>
+                  <td>Jensen Mooney (2-0)</td>
+                  <td>Parker Lynn (2-3, 2 2B, 2 RBI)</td>
+                </tr>
+                <tr class="win">
+                  <td>Mar 29, 2025</td>
+                  <td>Nashville Christian School</td>
+                  <td><strong>W</strong></td>
+                  <td>4-2</td>
+                  <td>Parker Lynn (1-1)</td>
+                  <td>Hunter Brooks (2-3, HR, 2 RBI)</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+      
+      <section id="player-highlights">
+        <h2>Player Highlights</h2>
+        <div class="highlight-cards">
+          <div class="highlight-card">
+            <img src="./resources/35_Christian_Spence.jpg" alt="Christian Spence">
+            <div class="highlight-info">
+              <h3>Christian Spence</h3>
+              <p class="highlight-stat">Batting: .391 AVG, 1 HR, 6 RBI</p>
+              <p>Team-leading batting average and consistent production from first base.</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <img src="./resources/43_Hunter_Brooks.jpg" alt="Hunter Brooks">
+            <div class="highlight-info">
+              <h3>Hunter Brooks</h3>
+              <p class="highlight-stat">Batting: .375 AVG, 2 HR, 7 RBI, 5 SB</p>
+              <p>Leads team in home runs and RBIs while playing error-free defense in center field.</p>
+            </div>
+          </div>
+          <div class="highlight-card">
+            <img src="./resources/78_Sam_Shoemaker.jpg" alt="Sam Shoemaker">
+            <div class="highlight-info">
+              <h3>Sam Shoemaker</h3>
+              <p class="highlight-stat">Pitching: 2-1, 2.50 ERA, 21 K in 18.0 IP</p>
+              <p>Ace of the pitching staff with team-leading strikeouts and solid defensive play at shortstop.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="download-section">
+        <h2>Season Statistics</h2>
+        <p>For complete season statistics and printable box scores, download the files below.</p>
+        <div class="download-buttons">
+          <a href="#" class="tps-button">Download Complete Stats (PDF)</a>
+          <a href="#" class="tps-button">Game-by-Game Box Scores</a>
+        </div>
+        <p class="maxpreps-info">View our official stats and rankings on <a href="https://www.maxpreps.com/tn/nashville/trinity-prep-school-lions/" target="_blank">MaxPreps</a></p>
+      </section>
+      
+      <footer class="copyright">
+        <div class="social-links">
+          <a href="https://www.facebook.com/trinitypreplions" class="social-icon" target="_blank" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="https://www.maxpreps.com/tn/nashville/trinity-prep-school-lions/" class="social-icon maxpreps-icon" target="_blank" aria-label="MaxPreps">
+            <span>MP</span>
+          </a>
+        </div>
+        <h5>&copy; Trinity Prep School Baseball 2025</h5>
+        <p><a href="index.html">Return to Home Page</a></p>
+      </footer>
+    </main>
+    
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // Tab functionality for stats page
+        const tabButtons = document.querySelectorAll('.tab-button');
+        const tabContents = document.querySelectorAll('.tab-content');
+        
+        tabButtons.forEach(button => {
+          button.addEventListener('click', () => {
+            // Remove active class from all buttons and contents
+            tabButtons.forEach(btn => btn.classList.remove('active'));
+            tabContents.forEach(content => content.classList.remove('active'));
+            
+            // Add active class to clicked button
+            button.classList.add('active');
+            
+            // Show the corresponding content
+            const tabId = button.getAttribute('data-tab');
+            document.getElementById(tabId).classList.add('active');
+          });
+        });
+      });
+    </script>
+  </body>
+</html>
